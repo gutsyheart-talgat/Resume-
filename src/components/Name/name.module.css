@@ -1,0 +1,19 @@
+.under{
+    color: #309cb8;
+    height: 50vh;
+    background: url(../img/header.jpg) center / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+}
+p{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}

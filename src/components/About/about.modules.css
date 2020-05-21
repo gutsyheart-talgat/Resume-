@@ -1,0 +1,23 @@
+.back{
+    height: 100vh;
+    background:linear-gradient(90deg, rgb(44, 49, 53) 0%, rgba(24, 27, 31, 0) 100%), url(../img/backgorund.jpg);
+
+}
+.about{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-text{
+    color: #F8E1B6;
+    font-weight: 700;
+    font-size: 23.5px;
+    text-decoration: none;
+}
+.foto{
+    width: 550px;
+    height: 550px;
+    box-shadow: 5px 5px 5px #309cb8;
+    background: url(../img/talgat.png) center / cover;
+}

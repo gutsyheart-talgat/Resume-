@@ -1,0 +1,19 @@
+.active{
+    color: black;
+}
+.text{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color:#F8E1B6 ; 
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.background{
+    background-color:#309cb8;
+    height: 50px;
+}
