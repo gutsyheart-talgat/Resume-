@@ -10,14 +10,21 @@
     align-items: center;
 }
 .about-text{
+    margin-top: 60px;
     color: #F8E1B6;
     font-weight: 700;
     font-size: 23.5px;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.text-me{
+    margin-bottom: 35px;
 }
 .foto{
     width: 550px;
     height: 550px;
     box-shadow: 5px 5px 5px #309cb8;
     background: url(../img/talgat.png) center / cover;
+    object-fit: cover;
 }

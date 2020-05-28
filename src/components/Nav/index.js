@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import style from './nav.modules.css'
-
+import style from './nav.module.css'
 export default function Nav() {
     return(
         <div className="background">
