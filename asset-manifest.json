@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Resume-/static/css/main.081b5f90.chunk.css",
-    "main.js": "/Resume-/static/js/main.801848be.chunk.js",
-    "main.js.map": "/Resume-/static/js/main.801848be.chunk.js.map",
+    "main.css": "/Resume-/static/css/main.27f3350e.chunk.css",
+    "main.js": "/Resume-/static/js/main.6f231193.chunk.js",
+    "main.js.map": "/Resume-/static/js/main.6f231193.chunk.js.map",
     "runtime-main.js": "/Resume-/static/js/runtime-main.1c8b364d.js",
     "runtime-main.js.map": "/Resume-/static/js/runtime-main.1c8b364d.js.map",
-    "static/js/2.b17278d5.chunk.js": "/Resume-/static/js/2.b17278d5.chunk.js",
-    "static/js/2.b17278d5.chunk.js.map": "/Resume-/static/js/2.b17278d5.chunk.js.map",
+    "static/js/2.fbcb5d9f.chunk.js": "/Resume-/static/js/2.fbcb5d9f.chunk.js",
+    "static/js/2.fbcb5d9f.chunk.js.map": "/Resume-/static/js/2.fbcb5d9f.chunk.js.map",
     "index.html": "/Resume-/index.html",
-    "precache-manifest.f64b991c233bcb0bf603eb5e7ec23f30.js": "/Resume-/precache-manifest.f64b991c233bcb0bf603eb5e7ec23f30.js",
+    "precache-manifest.db12fbd7926018fe4bc56019da4cc4e2.js": "/Resume-/precache-manifest.db12fbd7926018fe4bc56019da4cc4e2.js",
     "service-worker.js": "/Resume-/service-worker.js",
-    "static/css/main.081b5f90.chunk.css.map": "/Resume-/static/css/main.081b5f90.chunk.css.map",
-    "static/js/2.b17278d5.chunk.js.LICENSE.txt": "/Resume-/static/js/2.b17278d5.chunk.js.LICENSE.txt",
+    "static/css/main.27f3350e.chunk.css.map": "/Resume-/static/css/main.27f3350e.chunk.css.map",
+    "static/js/2.fbcb5d9f.chunk.js.LICENSE.txt": "/Resume-/static/js/2.fbcb5d9f.chunk.js.LICENSE.txt",
     "static/media/HTML5.jpg": "/Resume-/static/media/HTML5.4ab56867.jpg",
     "static/media/verstka.css": "/Resume-/static/media/mariposa.80e73cc7.png",
     "static/media/css.jpg": "/Resume-/static/media/css.81592166.jpg",
@@ -23,13 +23,13 @@
     "static/media/json.webp": "/Resume-/static/media/json.a0156cae.webp",
     "static/media/kyrgyzstan.png": "/Resume-/static/media/kyrgyzstan.30ee0ec9.png",
     "static/media/react.jpeg": "/Resume-/static/media/react.9fb5782a.jpeg",
-    "static/media/about.css": "/Resume-/static/media/talgat.e40ab1d2.png",
+    "static/media/talgat.png": "/Resume-/static/media/talgat.e40ab1d2.png",
     "static/media/vscode.png": "/Resume-/static/media/vscode.225fbbe0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1c8b364d.js",
-    "static/js/2.b17278d5.chunk.js",
-    "static/css/main.081b5f90.chunk.css",
-    "static/js/main.801848be.chunk.js"
+    "static/js/2.fbcb5d9f.chunk.js",
+    "static/css/main.27f3350e.chunk.css",
+    "static/js/main.6f231193.chunk.js"
   ]
 }
