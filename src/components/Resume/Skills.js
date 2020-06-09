@@ -8,10 +8,10 @@ import npm from '../img/npm.png'
 import bootstrap from '../img/bootstrap.png'
 import react from '../img/react.jpeg'
 import git from '../img/git.png'
+import russia from '../img/russia.png'
 import vscode from '../img/vscode.png'
 import kyrgyz from '../img/kyrgyzstan.png'
 import english from '../img/english.jpg'
-import russia from '../img/russia.png'
 
 export default function Skills(){
     const skills =[
