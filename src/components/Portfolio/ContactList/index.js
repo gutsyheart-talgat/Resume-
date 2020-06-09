@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card'
-import style from './page.module.css'
+import './page.css'
 import Name from '../../Name'
 import Nav from '../../Nav'
 
@@ -44,9 +44,9 @@ function ContactList() {
     <div>
       <Name />
       <Nav />
-      <div className={style.page}>
+      <div className="page">
         <div className="container">
-          <form className={style.form}>
+          <form className="form col-12 col-md-6 col-lg-6">
             <h3>Новый контакт</h3>
             <input 
               type="text" 
@@ -66,7 +66,7 @@ function ContactList() {
               Добавить
             </button>
           </form>
-          <div className={style.list}>
+          <div className="list">
           { contacts.map(c => <Card key={c.id} contact={c}/>) }
           </div>
         </div>

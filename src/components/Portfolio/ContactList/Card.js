@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import style from './page.module.css'
+import './page.css'
 
 function Card({ contact }) {
   return (
@@ -11,9 +11,9 @@ function Card({ contact }) {
         state: { contact }
       }}
       key={contact.id}
-      className={style.contact}
+      className="contact"
     >
-        <div className={style.name}>
+        <div className="name">
             <div> имя:</div>
             <div>{contact.name}</div>
             &nbsp;
