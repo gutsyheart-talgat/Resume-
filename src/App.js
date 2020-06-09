@@ -12,8 +12,8 @@ import verstka from './components/Portfolio/Verstka';
 
 function App() {
   return (
-    <BrowserRouter>
-        <Switch className="container" basename="/Resume-">
+    <BrowserRouter basename="/Resume-">
+        <Switch className="container">
           <Route path="/" component={About} exact/>
           <Route path="/resume" component={Resume} exact/>
           <Route path="/portfolio" component={Portfolio} exact/>
