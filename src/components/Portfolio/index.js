@@ -1,7 +1,8 @@
 import React from 'react';
 import Nav from '../Nav'
 import { NavLink } from 'react-router-dom';
-import Name from '../Name'
+import Name from '../Name';
+import './portfolio.css'
 
 
 export default function Portfolio (){
@@ -9,8 +10,11 @@ export default function Portfolio (){
         <div>
             <Name />
             <Nav />
-            <div>
-            <NavLink  to="/portfolio/contact-list">Contact List</NavLink>
+            <div className="port-back">
+               <div className="container port-container">
+                    <NavLink  to="./portfolio/contact-list" className="port-link">Contact List</NavLink>
+                    <NavLink  to="./portfolio/Web-page-layout" className="port-link">Web page layout</NavLink>
+               </div>
             </div>
         </div>
     )

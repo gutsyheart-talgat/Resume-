@@ -1,11 +1,12 @@
-.active{
-    color: black;
-}
+
 .text{
     font-weight: 700;
     font-size: 20px;
     text-decoration: none;
     color:#F8E1B6 ; 
+}
+.text:hover{
+    color: rgb(204, 204, 23);
 }
 .nav{
     display: flex;

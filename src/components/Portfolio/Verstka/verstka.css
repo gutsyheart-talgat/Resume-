@@ -1,0 +1,41 @@
+.verstka-back{
+    background:linear-gradient(90deg, rgb(44, 49, 53) 0%, rgba(24, 27, 31, 0) 100%), url(../../img/backgorund.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.verstka-container{
+    width: 80%;
+    height: 500px;
+    border: 5px solid #F8E1B6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.verstka-proekt{
+    width: 100%;
+    height: 100%;
+    color: #F8E1B6;
+    border-right: 3px solid #F8E1B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    text-decoration: none;
+    transition: .7s ease-in;
+}
+.verstka-proekt:hover{
+    width: 300%;
+    height: 500px;
+}
+.mariposa:hover{
+    background: url(../../img/mariposa.png) center / cover;
+}
+.apple:hover{
+    background: url(../../img/apple.png) center / cover;
+}
+.verstka-proekt:hover .verstka-name{
+    display: none;
+}
