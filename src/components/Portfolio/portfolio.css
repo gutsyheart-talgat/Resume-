@@ -1,6 +1,6 @@
 .port-back{
     background:linear-gradient(90deg, rgb(44, 49, 53) 0%, rgba(24, 27, 31, 0) 100%), url(../img/backgorund.jpg);
-    height: 100vh;
+    min-height: 100vh;
 }
 .port-container{
     padding-top: 30px;

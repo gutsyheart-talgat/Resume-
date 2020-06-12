@@ -1,6 +1,10 @@
+body{
+    min-width: 100vh;
+}
 .cont-back{
     background:linear-gradient(90deg, rgb(44, 49, 53) 0%, rgba(24, 27, 31, 0) 100%), url(../img/backgorund.jpg);
-    
+    min-height: 100vh;
+    min-width: 100vw;
 }
 .contact-container{
     padding-top: 30px;
@@ -9,7 +13,7 @@
     flex-wrap: wrap;
 }
 .cont-block{
-    width: 500px;
+    min-width: 500px;
     height: 150px;
     border: 5px solid #F8E1B6;
     color: #F8E1B6;

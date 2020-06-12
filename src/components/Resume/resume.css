@@ -1,5 +1,6 @@
 .res-back{
     background:linear-gradient(90deg, rgb(44, 49, 53) 0%, rgba(24, 27, 31, 0) 100%), url(../img/backgorund.jpg);
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;

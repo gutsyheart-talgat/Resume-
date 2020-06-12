@@ -57,4 +57,13 @@ code {
   flex: 0 0 50%;
   max-width: 50%;
 }
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 
