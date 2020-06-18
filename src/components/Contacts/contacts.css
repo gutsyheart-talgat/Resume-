@@ -1,10 +1,13 @@
 body{
-    min-width: 100vh;
+    min-width: 100vw;
+}
+.cont-name{
+    width: 100%;
 }
 .cont-back{
     background:linear-gradient(90deg, rgb(44, 49, 53) 0%, rgba(24, 27, 31, 0) 100%), url(../img/backgorund.jpg);
     min-height: 100vh;
-    min-width: 100vw;
+    width: 100%;
 }
 .contact-container{
     padding-top: 30px;
@@ -13,7 +16,6 @@ body{
     flex-wrap: wrap;
 }
 .cont-block{
-    min-width: 500px;
     height: 150px;
     border: 5px solid #F8E1B6;
     color: #F8E1B6;
@@ -24,6 +26,29 @@ body{
     box-shadow: 5px 5px 5px #309cb8;
     margin-top: 50px;
 }
+@media (min-width: 576px) {
+    .cont-block {
+        width: 546px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .cont-block {
+        width: 738px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .cont-block {
+        width: 466px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .cont-block {
+        width: 570px;
+    }
+  }
 .cont-block:hover {
     background: #F8E1B6 ;
     color:#309cb8;

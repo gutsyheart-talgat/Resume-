@@ -8,8 +8,8 @@ import './contacts.css'
 export default function Contacts (){
     return (
         <div >
-            <Name />
-            <Nav />
+            <Name className="contact-Name"/>
+            <Nav className="contact-Name"/>
             <div className="cont-back">
                 <div className="container contact-container">
                     <a href="https://api.whatsapp.com/send?phone=996558770978&text=&source=&data=&app_absent=" className="cont-block">
