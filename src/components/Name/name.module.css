@@ -13,7 +13,48 @@ h1{
     margin: 0;
 }
 p{
-    font-size: 50px;
     font-weight: bold;
     margin: 0;
 }
+@media(max-width:576px){
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 10px;
+    }
+}
+@media (min-width: 576px) {
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
+  }
+  @media (min-width: 768px) {
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size:30px ;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    h1{
+        font-size: 60px;
+    }
+    p{
+        font-size:40px ;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    h1{
+        font-size: 70px;
+    }
+    p{
+        font-size: 50px;
+    }
+  }

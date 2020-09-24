@@ -17,7 +17,6 @@
     color: #F8E1B6;
     margin-bottom: 15px;
     text-decoration: none;
-    font-size: 50px;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -31,3 +30,38 @@
     color:#309cb8;
     transform: translate(-10px, -10px);
 }
+
+@media(max-width:576px){
+    .port-link{
+        font-size: 30px;
+    }
+    .btn-Add{
+        font-size: 10px;
+    }
+}
+@media (min-width: 576px) {
+    .port-link{
+        font-size: 30px;
+    }
+    .btn-Add{
+        font-size: 10px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .port-link{
+        font-size: 30px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+      .port-link{
+          font-size: 40px;
+      }
+  }
+  
+  @media (min-width: 1200px) {
+    .port-link{
+        font-size: 50px;
+    }
+  }

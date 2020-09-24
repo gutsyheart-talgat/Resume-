@@ -62,6 +62,7 @@ function ContactList() {
             />
             <button
               onClick={handleAdd}
+              className="btn-Add"
             >
               Добавить
             </button>

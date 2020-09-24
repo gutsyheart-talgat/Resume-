@@ -12,6 +12,7 @@ import russia from '../img/russia.png'
 import vscode from '../img/vscode.png'
 import kyrgyz from '../img/kyrgyzstan.png'
 import english from '../img/english.jpg'
+import './resume.css'
 
 export default function Skills(){
     const skills =[
@@ -33,7 +34,7 @@ export default function Skills(){
     ]
     return(
         <div className="container">
-            <h2>HARD SKILLS</h2>
+            <h2 className="edu-h2">HARD SKILLS</h2>
             <div className="skill-cont">
                 {
                     skills.map(el => (
@@ -44,7 +45,7 @@ export default function Skills(){
                     )) 
                 }
             </div>
-            <h2>LANGUAGES</h2>
+            <h2 className="edu-h2">LANGUAGES</h2>
             <div className="skill-cont">
                 {
                     languages.map(el => (
